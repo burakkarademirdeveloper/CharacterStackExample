@@ -10,7 +10,7 @@ public class PlayerControl : MonoBehaviour
     public GameObject MainCharacter;
     public float Speed = 0.2f;
 
-    [Header("Yer belirteçleri")] 
+    [Header("-----Stack Objects-----")] 
     public  List<GameObject> SpawnObjects;
     [SerializeField]
     public  List<GameObject> CharacterArray;
